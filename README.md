@@ -7,5 +7,5 @@ TIDES is a training-free approach that combines traditional TF-IDF techniques wi
 
 
 
-![figure1.png]
+![Figure1](./figure1.png)
 *Figure 1: Overview of the TIDES workflow. The process begins with TF-IDF analysis to identify relevant content in technical documents. Non-relevant documents are discarded, and the remaining documents are segmented into paragraphs. These paragraphs undergo associative selection to further filter out non-relevant content. In the rationale generation phase, key evidence is extracted from the relevant paragraphs. Finally, systematic composition integrates the extracted evidence into a coherent and concise answer to the technical question.*
