@@ -1,6 +1,6 @@
 # TIDES: Technical Information Discovery and Extraction System
-=======
-**TIDES** (Technical Information Distillation and Extraction System) is a training-free, hybrid QA system that combines TF-IDF-based document filtering with prompt-engineered large language models (LLMs) to address technical queries in domain-specific contexts. It achieves high accuracy and efficiency without requiring extensive fine-tuning or retraining of LLMs.
+
+**TIDES**(Technical Information Distillation and Extraction System) is a training-free, hybrid QA system that combines TF-IDF-based document filtering with prompt-engineered large language models (LLMs) to address technical queries in domain-specific contexts. It achieves high accuracy and efficiency without requiring extensive fine-tuning or retraining of LLMs.
 
 ![Figure1](./main_figure.png)
 
@@ -121,4 +121,3 @@ TF-IDF achieves the highest document relevance rate (81.81%) compared to BM25, c
 ## Limitations
 - TIDES requires broader validation across more domain-specific datasets.
 - Enhancing similarity metrics could further refine relevance filtering.
->>>>>>> source-repo/main
