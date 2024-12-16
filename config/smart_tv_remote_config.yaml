@@ -1,0 +1,14 @@
+# TIDES/config/s10_config.yaml
+data:
+  base_path: "data"
+  questions_path: "s10_50_questions.csv"
+  corpus_path: "s10_manual_corpus.json"
+  
+output:
+  save_dir: "results/s10"
+
+model:
+  together:
+    name: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+  openai:
+    name: "gpt-3.5-turbo-0125"

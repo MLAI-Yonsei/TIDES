@@ -1,0 +1,15 @@
+# TIDES/config/smarttv_config.yaml
+api_key: "your-together-api-key"
+data:
+  raw_path: "data/raw/s10"
+  processed_path: "data/processed/s10"
+  questions_path: "s10_50_questions.csv"
+  corpus_path: "s10_manual_corpus.json"
+model:
+  name: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+  max_tokens: 1000
+  temperature: 0
+evaluation:
+  max_retries: 5
+  delay_between_calls: 0.5
+output_path: "results/s10"

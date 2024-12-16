@@ -1,0 +1,20 @@
+# TIDES/config/default_config.yaml
+data:
+  base_path: "data"
+  raw_dir: "raw"
+  processed_dir: "processed"
+  output_dir: "results"
+
+retrieval:
+  method: "tfidf"
+  top_k: 30
+  
+model:
+  type: "together"  # or "openai"
+  max_retries: 5
+  max_tokens: 1000
+  temperature: 0
+
+evaluation:
+  batch_size: 1
+  save_intermediate: true

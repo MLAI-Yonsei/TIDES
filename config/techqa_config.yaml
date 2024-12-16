@@ -1,0 +1,14 @@
+# TIDES/config/techqa_config.yaml
+data:
+  base_path: "data"
+  validation_path: "TechQA/validation/validation_reference.json"
+  technotes_path: "TechQA/validation/validation_technotes.json"
+  
+output:
+  save_dir: "results/techqa"
+
+model:
+  together:
+    name: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+  openai:
+    name: "gpt-3.5-turbo-0125"

@@ -1,0 +1,8 @@
+# Ignore downloaded and processed data
+data/raw/*
+data/processed/*
+*.tar.gz
+
+# Keep directory structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
